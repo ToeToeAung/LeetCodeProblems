@@ -9,6 +9,7 @@ public class MyCalendarTwo {
         foreach(int[] book in bookings) 
         {
             int overlapStart = Math.Max(book[0], start), overlapEnd = Math.Min(book[1], end);
+            Console.WriteLine("OverlapStart  *** " +overlapStart  + " OverLlapEnd ***" + overlapEnd);
             if (overlapStart < overlapEnd) 
             {
                 foreach (int[] overlap in overlaps) 
@@ -19,11 +20,12 @@ public class MyCalendarTwo {
                         return false;
                     }
                 }
-                
+                 Console.WriteLine("overlapStart " + overlapStart+ " overlapEnd " +overlapEnd);
                 overlaps.Add(new int[] {overlapStart, overlapEnd});
             }
         }
         
+          Console.WriteLine("Start " + start+ " End " +end);
         bookings.Add(new int[] {start, end});
         return true;
     }    

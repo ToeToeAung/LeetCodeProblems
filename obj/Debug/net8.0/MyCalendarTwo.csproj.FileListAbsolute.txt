@@ -12,3 +12,4 @@ C:\Maharishi University\LeetCodeProblems\MyCalendarTwo\obj\Debug\net8.0\refint\M
 C:\Maharishi University\LeetCodeProblems\MyCalendarTwo\obj\Debug\net8.0\MyCalendarTwo.pdb
 C:\Maharishi University\LeetCodeProblems\MyCalendarTwo\obj\Debug\net8.0\MyCalendarTwo.genruntimeconfig.cache
 C:\Maharishi University\LeetCodeProblems\MyCalendarTwo\obj\Debug\net8.0\ref\MyCalendarTwo.dll
+C:\Maharishi University\LeetCodeProblems\MyCalendarTwo\obj\Debug\net8.0\MyCalendarTwo.sourcelink.json

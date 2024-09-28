@@ -1,2 +1,3 @@
 ﻿MyCalendarTwo myCalendarTwo=new MyCalendarTwo();
-Console.WriteLine(myCalendarTwo.Book(50,60));
+Console.WriteLine(myCalendarTwo.Book(5,15));
+
